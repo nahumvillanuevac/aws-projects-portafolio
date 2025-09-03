@@ -7,6 +7,10 @@ This project demonstrates how to build a serverless web application using AWS. I
 ## Goal
 The goal is to show how multiples AWS services can work together to create a simple, scalable, and cost-effective serverless architecture
 
+## Diagram
+
+![Diagram of the project](images/Diagram.png)
+
 ## Steps to successfully Complete the Project:
 
 ### 1. Prepare HTML Page

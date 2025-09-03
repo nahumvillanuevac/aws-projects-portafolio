@@ -83,7 +83,7 @@ aws ec2 authorize-security-group-ingress \
 ```
 ![Nginx](images/5.PNG)
 
-![Update Nginx](images/6.png)
+![Update Nginx](images/6.PNG)
 
 ## 5. Acces Logs in Real-Time
 View access logs in real-time:

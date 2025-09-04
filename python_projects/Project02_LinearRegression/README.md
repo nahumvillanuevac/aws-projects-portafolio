@@ -1,5 +1,5 @@
-## Linear Regression Project
-### Description
+# Linear Regression Project
+## Description
 This project demonstrates a **simple linear regression** using python and scikit-learn.
 The goal is to predict a numeric output `y` based on input `x` using a straight line that best fits the data.
 
@@ -9,7 +9,7 @@ x = [[1], [2], [3], [4], [5], [6]]
 y = [1, 3, 5, 7, 9, 10]
 ```
 The project uses **scikit-learn** to train a linear regression model and predict new values.
-### Requirements
+## Requirements
 make sure you have **Python 3.x** installed. Then install the necessary libraries:
 ```requirements
 pip install scikit-lean
@@ -41,8 +41,13 @@ pip install scikit-lean
  **4. fit(x, y):** Trains the model on the given data.
  
  **5. predict([[user_value]]):** Predicts the output for user value.
+
+### Example Input
+```Input
+Enter a value to predict: 5
+```
 ### Example Output
 ```Output
-[7.5]
+Prediction for 4.0: 6.761904761904762
 ```
 >Note: The predicted value may slightly differ due to imperfect linearity in the dataset.

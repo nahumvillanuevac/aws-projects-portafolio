@@ -18,6 +18,6 @@ def evaluate_students():
 		else:
 			message = "Fail"
 
-		print(f"\n|\|{message} -> {student['name']}: Average -> {average}")
+		print(f"\n|\|{student['name']}: Average -> {average}, {message}")
 
 evaluate_students()

@@ -13,9 +13,9 @@ The objective of this project is to demonstrate how an EC2 instance can access S
 	- `s3:GetObject`
 3. This role was associated with the EC2 instance.
 
-![custom policy](images/5.PNG)
+![custom policy](Images/5.PNG)
 
-![assigned IAM role](images/IAM.PNG)
+![assigned IAM role](Images/IAM.PNG)
 
 ---
 ## 3. Accessing the Instance
@@ -23,7 +23,7 @@ The objective of this project is to demonstrate how an EC2 instance can access S
 ```bash
 ssh -i "C:\Users\Home\Desktop\testAmazon\EC2\clave.pem" ec2-user@<Public-IP>
 ```
-![opened from cmd](images/localmachine.PNG)
+![opened from cmd](Images/localmachine.PNG)
 
 ## 4. Testing Access to S3
 1. Verified that AWS CLI is installed, and listed the buckets:
@@ -33,7 +33,7 @@ aws --version
 ```bash
 aws s3 ls
 ```
-![commands](images/8.PNG)
+![commands](Images/8.PNG)
 
 ## 5. Creating and Manipulating Files within EC2
 1. Created a text file:
@@ -44,7 +44,7 @@ echo "Hello AWS" > test.txt
 ```bash
 cat test.txt
 ```
-![test.txt](images/9.PNG)
+![test.txt](Images/9.PNG)
 
 ## 6. Conclusion
 The EC2 instance can access S3 buckets without using manual credentials, thanks to the IAM role.
